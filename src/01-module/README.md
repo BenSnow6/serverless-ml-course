@@ -133,3 +133,5 @@ Let's have a look at it in the web app!
 How jazzy is that? That's far better than the confusion matrix we used saw earlier isn't it? It's interactive, anyone can use it and play around, and it shows off how quick and powerful the model is!!
 
 I love it!
+
+You can have a go of the web app here until the 8th of October 2022 [here](https://28691.gradio.app).
