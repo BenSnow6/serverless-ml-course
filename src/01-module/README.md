@@ -3,7 +3,7 @@
 #machinelearning #course #hopsworks #serverless #gradio
 05/10/2022
 ## Introduction
-Following on from [[Module 1 labs]] we are now going to look into deploying an actual machine learning product to the web! How exciting :D
+Following on from [[Module 0 labs]] we are now going to look into deploying an actual machine learning product to the web! How exciting :D
 
 We are going to investigate the notorious Iris dataset and create several models to predict the variety of flower given a set of characteristics about flowers. This is a simple classification problem and we will use sklearn and pandas to create dataframes, split training and test sets, create a KNN model, evaluate this model, and then query the model! Visualisation with seaborn is used throughout.
 
