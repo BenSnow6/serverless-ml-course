@@ -2,7 +2,7 @@ faker
 parsedatetime
 hopsworks
 nbconvert
-scikit-learn=0.24.2
+scikit-learn==0.24.2
 plotly
 Pillow
 seaborn
