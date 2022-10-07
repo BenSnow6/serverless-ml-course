@@ -3,7 +3,7 @@
 
 | Predicted | Actual (label)
 |--------|------- 
-| ![Iris](https://raw.githubusercontent.com/bensnows6/serverless-ml-course/main/assets/latest_iris.png) | ![Iris](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/actual_iris.png) 
+| ![Iris](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/latest_iris.png) | ![Iris](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/actual_iris.png) 
 
  * Data source: synthetic data
  * Update frequency: daily
