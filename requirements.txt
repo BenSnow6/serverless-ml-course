@@ -8,3 +8,4 @@ Pillow
 seaborn
 dataframe-image
 faker
+plotly
