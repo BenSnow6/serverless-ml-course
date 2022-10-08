@@ -19,4 +19,4 @@
 ![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/scatter_plot.png)
 
 
-<a href="index.html">Link 1</a>
+[Here](https://htmlpreview.github.io/https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/index.html)
