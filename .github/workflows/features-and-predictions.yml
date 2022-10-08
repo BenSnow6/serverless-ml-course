@@ -94,7 +94,7 @@ jobs:
           token: ${{secrets.PUSH_TOKEN}}
       - name: push interactive html plot to website
         run: |
-          cp -RT ./assets/index.html interactive/
+          cp -RT ./assets/index.html interactive
           cd interactive
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
