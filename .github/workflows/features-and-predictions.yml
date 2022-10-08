@@ -13,13 +13,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: serverless
-      - name: checkout interactive html repo
-        uses: actions/checkout@v2
-        with:
-          repository: BenSnow6/iris_interactive
-          path: interactive
-          token: ${{secrets.PUSH_TOKEN}}
-
       - name: setup python
         uses: actions/setup-python@v2
         with:
@@ -93,7 +86,12 @@ jobs:
       
           # Optional. Create given branch name in local and remote repository.
           create_branch: false
-
+      - name: checkout interactive html repo
+        uses: actions/checkout@v2
+        with:
+          repository: BenSnow6/iris_interactive
+          path: interactive
+          token: ${{secrets.PUSH_TOKEN}}
       - name: push interactive html plot to website
         run: |
           cp -RT serverless/assets/index.html interactive/
