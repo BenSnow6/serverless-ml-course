@@ -14,6 +14,3 @@
 |--------|------- 
 | ![Recent predictions](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/df_recent.png) | ![Confusion Matrix](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/confusion_matrix.png)
 
-
-## Dataset
-iris_scatter.html
