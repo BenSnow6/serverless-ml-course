@@ -15,8 +15,6 @@
 | ![Recent predictions](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/df_recent.png) | ![Confusion Matrix](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/confusion_matrix.png)
 
 
-## Module 2 - Credit Card Fraud Dashboard
+## Scatter plot
 
-
-TODO
-
+iris_scatter.html
