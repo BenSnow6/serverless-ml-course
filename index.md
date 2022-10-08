@@ -16,4 +16,4 @@
 
 
 ## Scatter plot
- {% include_relative index.html}
+ {% include_relative index.html %}
