@@ -10,3 +10,4 @@ dataframe-image
 faker
 plotly
 statsmodels
+kaleido
