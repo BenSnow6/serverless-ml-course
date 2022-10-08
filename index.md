@@ -15,7 +15,7 @@
 | ![Recent predictions](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/df_recent.png) | ![Confusion Matrix](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/confusion_matrix.png)
 
 
-## Scatter plot
+### Scatter plot
 ![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/scatter_plot.png)
 
 Access the interactive version [here](https://bensnow6.github.io/iris_interactive/)
