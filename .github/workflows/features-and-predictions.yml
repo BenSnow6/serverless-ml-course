@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-#         with:
-#           path: serverless
       - name: setup python
         uses: actions/setup-python@v2
         with:
@@ -86,6 +84,10 @@ jobs:
       
           # Optional. Create given branch name in local and remote repository.
           create_branch: false
+      - name: checkout repo once again
+        uses: actions/checkout@v2
+        with:
+          path: serverless
       - name: checkout interactive html repo
         uses: actions/checkout@v2
         with:
@@ -94,6 +96,9 @@ jobs:
           token: ${{secrets.PUSH_TOKEN}}
       - name: push interactive html plot to website
         run: |
+          cd interactive
+          rm interactive/index.html
+          cd serverless
           cp -RT ./assets/index.html interactive
           cd interactive
           git config --local user.name "github-actions[bot]"
