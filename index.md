@@ -16,5 +16,4 @@
 
 
 ## Scatter plot
-
-./iris_scatter.html
+ {% include_relative index.html}
