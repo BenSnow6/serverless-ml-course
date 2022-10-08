@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
+        with:
+          path: serverless
+      - name: checkout interactive html repo
+        uses: actions/checkout@v2
+        with:
+          repository: BenSnow6/iris_interactive
+          path: interactive
+          token: ${{secrets.PUSH_TOKEN}}
 
       - name: setup python
         uses: actions/setup-python@v2
@@ -86,3 +94,15 @@ jobs:
           # Optional. Create given branch name in local and remote repository.
           create_branch: false
 
+      - name: push interactive html plot to website
+        run: |
+          cp -RT serverless/assets/index.html interactive/
+          cd interactive
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "HTML update"
+          git push https://$USERNAME:$REPO_KEY@github.com/BenSnow6/interactive.git
+        env:
+          REPO_KEY: ${{secrets.PUSH_TOKEN}}
+          USERNAME: github-actions[bot]
