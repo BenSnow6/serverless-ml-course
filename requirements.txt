@@ -9,3 +9,4 @@ seaborn
 dataframe-image
 faker
 plotly
+statsmodels
