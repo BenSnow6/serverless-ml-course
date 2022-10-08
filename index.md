@@ -17,3 +17,5 @@
 
 ## Scatter plot
 ![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/scatter_plot.png)
+
+Access the interactive version [here](https://bensnow6.github.io/iris_interactive/). 
