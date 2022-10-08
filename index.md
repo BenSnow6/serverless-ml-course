@@ -16,4 +16,4 @@
 
 
 ## Scatter plot
- {% include_relative index.html %}
+![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/scatter_plot.png)
