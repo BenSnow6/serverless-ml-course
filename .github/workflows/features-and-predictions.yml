@@ -97,7 +97,7 @@ jobs:
       - name: push interactive html plot to website
         run: |
           cd interactive
-          rm interactive/index.html
+          rm ./index.html
           cd serverless
           cp -RT ./assets/index.html interactive
           cd interactive
