@@ -87,7 +87,9 @@ jobs:
       - name: checkout repo once again
         uses: actions/checkout@v2
         with:
+          repository: BenSnow6/serverless-ml-course
           path: serverless
+          token: ${{secrets.PUSH_TOKEN}}
       - name: checkout interactive html repo
         uses: actions/checkout@v2
         with:
