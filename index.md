@@ -9,7 +9,7 @@
 ![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/module1/scatter_plot.png)
 
 ### Interactive plot
-*** Access the interactive version [here](https://bensnow6.github.io/iris_interactive/) ***
+*** [Access the interactive version here](https://bensnow6.github.io/iris_interactive/) ***
 
 ### Dataset information
  * Data source: synthetic data
