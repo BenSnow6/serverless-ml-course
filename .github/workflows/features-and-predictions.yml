@@ -44,7 +44,7 @@ jobs:
       
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
-          file_pattern: ./serverless/assets/module1/actual_iris.png
+          file_pattern: assets/module1/actual_iris.png
       
           # Optional. Local file path to the repository.
           # Defaults to the root of the repository.
