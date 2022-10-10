@@ -114,10 +114,3 @@ jobs:
         env:
           REPO_KEY: ${{secrets.PUSH_TOKEN}}
           USERNAME: github-actions[bot]
-
-      - name: push to github pages branch
-        run: |
-          git checkout gh-pages
-          git add assets/module1/actual_iris.png assets/module1/df_recent.png assets/module1/latest_iris.png assets/module1/scatter_plot.png assets/module1/confusion_matrix.png assets/module1/html/index.html
-          git commit -m "Automated graph published"
-          git push origin gh-pages
