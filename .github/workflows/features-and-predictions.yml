@@ -96,8 +96,8 @@ jobs:
         run: |
           cd interactive
           rm ./index.html
-          cd serverless
-          cp -RT ./assets/index.html ../interactive
+          cd ..
+          cp -RT ./assets/index.html /interactive
           cd interactive
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
