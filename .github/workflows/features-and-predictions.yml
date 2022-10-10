@@ -97,6 +97,7 @@ jobs:
           pwd
           ls -la
           ls -la ./interactive
+          ls -la ./serverless
       # - name: push interactive html plot to website
       #   run: |
       #     cp -RT assets/module1/index.html /interactive
