@@ -7,6 +7,8 @@
 
 ### Scatter plot
 ![Scatter plot](https://raw.githubusercontent.com/bensnow6/serverless-ml-course/main/assets/module1/scatter_plot.png)
+
+
 The most recently identified flower is shown in yellow!
 
 ### Interactive plot
