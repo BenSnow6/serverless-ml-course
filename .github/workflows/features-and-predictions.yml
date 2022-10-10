@@ -115,7 +115,7 @@ jobs:
           REPO_KEY: ${{secrets.PUSH_TOKEN}}
           USERNAME: github-actions[bot]
 
-      - name: push to github pages
+      - name: push to github pages branch
         uses: actions/checkout@v2
         run: |
           git checkout gh-pages
