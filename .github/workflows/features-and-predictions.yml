@@ -97,7 +97,7 @@ jobs:
           cd interactive
           rm ./index.html
           cd ..
-          cp -RT /assets/index.html /interactive
+          cp -RT /assets/module1/index.html /interactive
           cd interactive
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
