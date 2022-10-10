@@ -116,7 +116,6 @@ jobs:
           USERNAME: github-actions[bot]
 
       - name: push to github pages branch
-        uses: actions/checkout@v2
         run: |
           git checkout gh-pages
           git add assets/module1/actual_iris.png assets/module1/df_recent.png assets/module1/latest_iris.png assets/module1/scatter_plot.png assets/module1/confusion_matrix.png assets/module1/html/index.html
